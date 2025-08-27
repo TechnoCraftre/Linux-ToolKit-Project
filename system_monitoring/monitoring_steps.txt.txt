@@ -1,0 +1,11 @@
+# Run the dummy script in background
+python3 dummy_worker.py &
+
+# Get process list
+ps aux > /opt/linux_toolkit/process_report.txt
+
+# Check running processes
+top -n 1
+
+# Kill a process by PID (example)
+kill -9 <PID>

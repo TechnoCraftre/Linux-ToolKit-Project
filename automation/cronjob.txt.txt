@@ -1,0 +1,4 @@
+# Edit crontab with: crontab -e
+# Add the following line to rotate logs daily at midnight
+
+0 0 * * * /bin/bash /opt/linux_toolkit/bin/rotate_logs.sh >> /opt/linux_toolkit/logs/cron.log 2>&1

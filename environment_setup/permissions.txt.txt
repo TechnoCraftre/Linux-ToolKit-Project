@@ -1,0 +1,5 @@
+# Give sudo rights to admin1
+sudo usermod -aG sudo admin1
+
+# Verify group membership
+groups admin1

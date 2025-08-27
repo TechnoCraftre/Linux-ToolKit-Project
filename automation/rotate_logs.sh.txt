@@ -1,0 +1,13 @@
+#!/bin/bash
+# Log rotation script
+
+LOG_DIR="/opt/linux_toolkit/logs"
+ARCHIVE="$LOG_DIR/archive"
+
+mkdir -p $ARCHIVE
+TIMESTAMP=$(date +%F_%H-%M-%S)
+
+tar -czf $ARCHIVE/logs_$TIMESTAMP.tar.gz $LOG_DIR/*.log 2>/dev/null
+rm -f $LOG_DIR/*.log
+
+echo "Logs rotated at $TIMESTAMP"

@@ -1,0 +1,6 @@
+import time
+
+while True:
+    with open("/opt/linux_toolkit/logs/dummy_worker.log", "a") as f:
+        f.write("Dummy worker is running...\n")
+    time.sleep(5)

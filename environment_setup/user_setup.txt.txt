@@ -1,0 +1,4 @@
+# Create 3 users
+sudo adduser dev1
+sudo adduser test1
+sudo adduser admin1

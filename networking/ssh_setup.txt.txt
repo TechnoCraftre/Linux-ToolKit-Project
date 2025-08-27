@@ -1,0 +1,13 @@
+# Install OpenSSH server
+sudo apt update
+sudo apt install openssh-server -y
+
+# Enable SSH service
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
+# Check status
+systemctl status ssh
+
+# From host → SSH into VM
+ssh admin1@<VM-IP>

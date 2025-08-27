@@ -1,0 +1,8 @@
+# Ping google DNS
+ping -c 4 8.8.8.8
+
+# Show open ports
+ss -tulnp
+
+# Check SSH login
+ssh admin1@localhost
