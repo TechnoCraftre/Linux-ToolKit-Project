@@ -9,17 +9,14 @@ This project is a beginner-friendly **Linux mini-toolkit** to practice essential
 - Practice file management, user management, process monitoring, networking, and automation.
 - Document everything in a GitHub repo.
 
----
-
 ## Toolkit Components
 1. **Environment Setup**
    - Users: `dev1`, `test1`, `admin1` (`admin1` has sudo).
 2. **File Management**
-   - Directory: `/opt/linux_toolkit`
-   - Subfolders: `logs/`, `bin/`
+   - `file_ops.txt`
 3. **System Monitoring**
    - `dummy_worker.py` (background script writing logs)
-   - `process_report.txt` (saved running processes)
+   - `monitoring_steps.txt` 
 4. **Networking**
    - SSH server enabled
    - Commands: `ping`, `ss`, `ssh`
@@ -27,14 +24,8 @@ This project is a beginner-friendly **Linux mini-toolkit** to practice essential
    - `rotate_logs.sh` script
    - `cronjob.txt` with daily rotation schedule
 
----
-
 ## Artifacts
-- `process_report.txt`
 - `cronjob.txt`
-- Screenshots (commands in action)
-
----
 
 ## Essential Commands
 This repo documents **25 must-know Linux commands** with **what, why, how** explanations.
@@ -66,10 +57,10 @@ This repo documents **25 must-know Linux commands** with **what, why, how** expl
 | `ssh`   | Remote login | Connect to servers | `ssh admin1@host` |
 | `crontab` | Schedule jobs | Automate tasks | `crontab -l` |
 
----
-
 ## How to Run
 1. Clone this repo:
    ```bash
    git clone https://github.com/TechnoCraftre/Linux-ToolKit-Project.git
-   cd linux-toolkit
+   
+   cd Linux-ToolKit-Project
+   
