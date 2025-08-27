@@ -1,4 +1,4 @@
-# Linux Toolkit Project 🐧
+# Linux Toolkit Project 
 
 This project is a beginner-friendly **Linux mini-toolkit** to practice essential commands and workflows for every day usage.
 
@@ -11,7 +11,7 @@ This project is a beginner-friendly **Linux mini-toolkit** to practice essential
 
 ---
 
-## ⚙️ Toolkit Components
+## Toolkit Components
 1. **Environment Setup**
    - Users: `dev1`, `test1`, `admin1` (`admin1` has sudo).
 2. **File Management**
